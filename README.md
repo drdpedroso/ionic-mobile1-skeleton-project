@@ -7,3 +7,11 @@ Tabs based Ionic Project using Mobile1 Cordova skeleton
  - If you're using gulp or any other node module run <b> npm install </b>
  - The cordova plugins must be added by hand using <b> cordova plugin add {plugin-name}</b>
 
+<h3> Creating your own project</h3>
+ - Create a new mfp cordova project using <b>mfp cordova create</b>
+ - Create a new Ionic projeto using <b>ionic start myApp tabs</b>
+ - Trade de www folder inside de Mfp Cordova project for the Ionic www folder inside the project you just created
+ - Inside the Mfp Cordova project, copy the index.js file
+ - Paste the index.js file inside the <cordova-project>/www/js
+ - Done! :)
+
